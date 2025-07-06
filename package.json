@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && git add . && git commit -m 'deploy' && git push"
+    "deploy": "npm run build && git add . && git commit -m 'Sync lock file with package.json' && git push"
   },
   "dependencies": {
     "@telegram-apps/sdk-react": "^3.2.4",
